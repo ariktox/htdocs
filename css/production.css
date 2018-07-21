@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content-production {
+	float: left;
+	width: 900px;
+	padding: 40px;
+	text-align:center;
+}
+
+#content-production td{ width:320px;}
+
+#content-production strong {color:#FF0000; text-align:center; font-size:12px; font-family:Arial, Helvetica, sans-serif;}

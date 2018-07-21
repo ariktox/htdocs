@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page_video {
+	margin:0 auto;
+	padding:10px;
+	width:960px;
+	background:#FFF;
+	border-radius:5px;	
+}
+
+.page_video_block {
+	width:470px;
+	margin:5px;
+	float:left;
+}
+
+.page_video_head {
+	width:470px;
+	height:22px;
+	background:rgba(154,154,154,0.7);
+	-o-border-top-left-radius:5px;
+	-o-border-top-right-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-moz-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	color: #FFF;
+}
+
+.page_video_bottom {
+	height:16px;
+	padding-top:2px;
+	float:right;
+	background:rgba(154,154,154,0.7);
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.page_video_text {
+	color:#999;
+	width:470px;
+}
+
+.page_video_text p {
+	font-size:12px;
+	line-height:120%;
+}
+.page_video_bottom a {
+	font-weight:bold;
+	color:#FFF;
+	font-size:12px;
+	padding: 5px 10px;
+}
+
+.page_video_head h3 {
+	font-weight:bold;
+	color:#FFF;
+	font-size:16px;
+	padding: 1px 0 1px 7px;
+}
+	
+.page_video_block:hover	.page_video_head {
+	background:#0969a5;
+}
+
+.page_video_block:hover	.page_video_bottom {
+	background:#0969a5;
+}
+
+.page_video_block:hover .page_video_text p {
+	color:#000;
+}
+
+.page_video_block:hover .page_video_text li {
+	color:#000;
+}
+
+.page_video_bottom a:hover {
+	-moz-text-shadow:0 0 2px #FFF;
+	-webkit-text-shadow:0 0 2px #FFF;
+	-o-text-shadow:0 0 2px #FFF;
+	text-shadow:0 0 2px #FFF;
+}
+	
+	

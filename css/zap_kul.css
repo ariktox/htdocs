@@ -1,0 +1,112 @@
+#content_zap_kul {
+	padding:10px;
+	margin:0 auto;
+	background:#FFF;
+	min-height:300px;
+	width: 960px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	font-size:12px;
+}
+
+.cellback {
+	display:inline-block;
+	margin:5px;	
+	width:310px;
+	height:130px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 1px #CCC;
+	-moz-box-shadow: 0 0 1px #CCC;
+	box-shadow: 0 0 1px #CCC;
+	float:left;
+	position: relative;
+}
+
+.cellback h3 {
+	font-size:15px;
+	text-align:left;
+	background:#999;
+	padding:0 5px;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+.cellback:hover  h3 {
+	background:#0969a5;
+	}
+
+.cellback:hover  img {	
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-moz-transition: -moz-transform 0.5s ease-in-out;
+	-o-transition: -o-transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+	
+.cellback a {
+	float:right;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+.cellback img {
+	float:right;
+	margin:25px 5px 0 0;
+	
+	}
+
+.cellback_link {
+	background: #0777bd;
+	background: rgba(7, 119, 189, 0.8);
+	border:none;
+	color:#FFF;
+	-moz-text-shadow:0 0 1px #000;
+	-webkit-text-shadow:0 0 1px #000;
+	-o-text-shadow:0 0 1px #000;
+	padding:2px 5px;
+	border-radius:5px;
+	position: absolute;
+	bottom:5px;
+	right:5px;
+}
+
+.cellback_link:hover {
+		background: #0777bd;
+}
+
+.cellback_link a:hover {
+	-moz-text-shadow:0 0 1px #FFF;
+	-webkit-text-shadow:0 0 1px #FFF;
+	-o-text-shadow:0 0 1px #FFF;
+	text-shadow:0 0 1px #FFF;
+}
+
+.cellback_a {
+	background: #CCC;
+	border:none;
+	color:#FFF;
+	-moz-text-shadow:0 0 1px #000;
+	-webkit-text-shadow:0 0 1px #000;
+	-o-text-shadow:0 0 1px #000;
+	padding:2px 5px;
+	border-radius:5px;
+	position: absolute;
+	bottom:5px;
+	left:5px;
+}
+
+.cellback_a:hover {
+		background: #0777bd;
+}
+
+.cellback_a a:hover {
+	-moz-text-shadow:0 0 1px #FFF;
+	-webkit-text-shadow:0 0 1px #FFF;
+	-o-text-shadow:0 0 1px #FFF;
+	text-shadow:0 0 1px #FFF;
+}
