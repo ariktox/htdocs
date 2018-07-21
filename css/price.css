@@ -1,8 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+.whitekjlkjl {
+	flex-direction: 4;
+}
+
 
 .brown {
-	width:465px; 
+	width:465px;
 	border:0px;
 	float:left;
 	background: linear-gradient(to top, #FFF, #0969a5);
@@ -39,7 +43,7 @@
 
 .catalog {
 	width:280px;
-	height:30px;	
+	height:30px;
 	font-weight:bold;
 	font-size:12px;
 	display:inline-block;
